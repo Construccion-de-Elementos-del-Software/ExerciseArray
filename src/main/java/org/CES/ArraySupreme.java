@@ -7,9 +7,9 @@ package org.CES;
 // ********************************************************************
 public class ArraySupreme {
 
-    // ***************+***
-    // **   Attibutes   **
-    // *******************
+    // ***************+****
+    // **   Attributes   **
+    // ********************
 
     private int lenght;
     private int[] numbers;
@@ -50,13 +50,18 @@ public class ArraySupreme {
         return total;
     }
 
-    // ************************************************
-    // ** Method that shows all numbers of the array **
-    // ************************************************
+    // *************************************************
+    // ** Method that shows all numbers int the array **
+    // *************************************************
 
     public void showArray(){
         for (int number: this.numbers){
-            System.out.print(number + "-");
+            System.out.print(number + "  ");
         }
+        System.out.println();
+    }
+
+    public int[] getNumbers(){
+        return this.numbers;
     }
 }
