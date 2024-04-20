@@ -61,6 +61,10 @@ public class ArraySupreme {
         System.out.println();
     }
 
+    //  ******************************
+    //  ** Method created for tests **
+    //  ******************************
+
     public int[] getNumbers(){
         return this.numbers;
     }
