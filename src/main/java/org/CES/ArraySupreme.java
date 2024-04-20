@@ -49,4 +49,14 @@ public class ArraySupreme {
         }
         return total;
     }
+
+    // ************************************************
+    // ** Method that shows all numbers of the array **
+    // ************************************************
+
+    public void showArray(){
+        for (int number: this.numbers){
+            System.out.print(number + "-");
+        }
+    }
 }
